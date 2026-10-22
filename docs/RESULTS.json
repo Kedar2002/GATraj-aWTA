@@ -1,0 +1,68 @@
+{
+  "recorded_on": "2026-10-22",
+  "status": "unsuccessful_in_reported_runs",
+  "decision": "Stop pursuing this aWTA configuration as the proposed GATraj improvement.",
+  "source": "User-pasted evaluation outputs; checkpoint and report files were not independently accessed.",
+  "environment": {
+    "device": "Tesla T4",
+    "torch_version": "2.11.0+cu130"
+  },
+  "scope": "ETH and Hotel, one seed, final epoch 1000. No conclusion recorded for folds 2-4 or all possible aWTA settings.",
+  "baseline_evidence": "Paper values and an earlier user-reported ETH baseline. Matched baseline JSON reports for these runs were not supplied.",
+  "results": [
+    {
+      "test_set": 0,
+      "scene": "ETH",
+      "epoch": 1000,
+      "seed": 1,
+      "num_modes": 20,
+      "agent_windows": 2614,
+      "minADE": 0.27340251394328763,
+      "minFDE": 0.4580487022896076,
+      "sparse": {
+        "agents": 1199,
+        "minADE": 0.2770303681654369,
+        "minFDE": 0.48337138226074017
+      },
+      "crowded": {
+        "agents": 1415,
+        "minADE": 0.2703284519721257,
+        "minFDE": 0.436591538944851
+      },
+      "paper_reference": {
+        "minADE": 0.26,
+        "minFDE": 0.42
+      },
+      "earlier_user_baseline_reference": {
+        "minADE": 0.26233,
+        "minFDE": 0.41981
+      },
+      "reported_report_path": "/content/drive/MyDrive/GATraj-aWTA/runs/0/GATraj_aWTA_s1_609ebb907b/evaluation_1000.json"
+    },
+    {
+      "test_set": 1,
+      "scene": "Hotel",
+      "epoch": 1000,
+      "seed": 1,
+      "num_modes": 20,
+      "agent_windows": 1075,
+      "minADE": 0.11155133491338685,
+      "minFDE": 0.16440729008164517,
+      "sparse": {
+        "agents": 489,
+        "minADE": 0.10237884765266153,
+        "minFDE": 0.15307217482896426
+      },
+      "crowded": {
+        "agents": 586,
+        "minADE": 0.11920551635299527,
+        "minFDE": 0.17386611411189057
+      },
+      "paper_reference": {
+        "minADE": 0.1,
+        "minFDE": 0.15
+      },
+      "reported_report_path": "/content/drive/MyDrive/GATraj-aWTA/runs/1/GATraj_aWTA_s1_2799d0840c/evaluation_1000.json"
+    }
+  ]
+}

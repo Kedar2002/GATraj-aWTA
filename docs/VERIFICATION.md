@@ -42,3 +42,6 @@ Drive outage simulation, or improvement over the baseline has been established.
 The Colab notebook JSON, all code cells and Python source parse successfully;
 notebook execution outputs are cleared. Its setup cell repeats the focused
 CPU checks in the Colab runtime before starting GPU training.
+
+Subsequent user-reported 1,000-epoch Colab results are documented separately
+in [RESULTS.md](RESULTS.md); they did not demonstrate an improvement.

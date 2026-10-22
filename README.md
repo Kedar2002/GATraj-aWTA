@@ -1,5 +1,9 @@
 # GATraj-aWTA
 
+**Experiment status: unsuccessful in the reported ETH and Hotel runs.**
+This configuration is no longer the recommended improvement candidate.
+See the [negative-result record](docs/RESULTS.md) for values and evidence limits.
+
 GATraj with an optional annealed winner-takes-all regression objective, adapted
 from Xu et al., *Annealed Winner-Takes-All for Motion Forecasting*, ICRA 2025.
 This is an independent adaptation of an existing method, not a claim of a new
